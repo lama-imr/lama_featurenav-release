@@ -1,0 +1,12 @@
+Source: ros-indigo-featurenav-base
+Section: misc
+Priority: extra
+Maintainer: Gaël Ecorchard <gael.ecorchard@ciirc.cvut.cz>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, libopencv-dev, ros-indigo-angles, ros-indigo-catkin, ros-indigo-geometry-msgs, ros-indigo-image-transport, ros-indigo-lama-jockeys, ros-indigo-message-generation, ros-indigo-nav-msgs, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-tf
+Homepage: http://wiki.ros.org/featurenav_base
+Standards-Version: 3.9.2
+
+Package: ros-indigo-featurenav-base
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, libopencv-dev, ros-indigo-angles, ros-indigo-geometry-msgs, ros-indigo-image-transport, ros-indigo-lama-jockeys, ros-indigo-message-runtime, ros-indigo-nav-msgs, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-tf
+Description: The featurenav_base package provides base functionality for learning and navigating jockeys based on feature detection for the Large Maps Framework (LaMa).

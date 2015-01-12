@@ -1,0 +1,8 @@
+ros-indigo-featurenav-base (0.1.1-0trusty) trusty; urgency=high
+
+  * First public release
+  * Contributors: Gaël Ecorchard, Karel Košnar, Vladimír Petrík, Tomáš Krajnìk
+
+ -- Gaël Ecorchard <gael.ecorchard@ciirc.cvut.cz>  Sun, 11 Jan 2015 23:00:00 -0000
+
+
