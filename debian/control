@@ -1,0 +1,12 @@
+Source: ros-indigo-anj-featurenav
+Section: misc
+Priority: extra
+Maintainer: Gaël Ecorchard <gael.ecorchard@ciirc.cvut.cz>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, libopencv-dev, ros-indigo-actionlib, ros-indigo-actionlib-msgs, ros-indigo-catkin, ros-indigo-cv-bridge, ros-indigo-featurenav-base, ros-indigo-image-transport, ros-indigo-roscpp, ros-indigo-rospy, ros-indigo-rviz, ros-indigo-sensor-msgs, ros-indigo-tf-conversions, ros-indigo-visualization-msgs
+Homepage: http://wiki.ros.org/anj_featurenav
+Standards-Version: 3.9.2
+
+Package: ros-indigo-anj-featurenav
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, libopencv-dev, ros-indigo-actionlib, ros-indigo-actionlib-msgs, ros-indigo-cv-bridge, ros-indigo-featurenav-base, ros-indigo-image-transport, ros-indigo-roscpp, ros-indigo-rospy, ros-indigo-rviz, ros-indigo-sensor-msgs, ros-indigo-tf-conversions, ros-indigo-visualization-msgs
+Description: The anj_featurenav package provides a learning jockey and a navigating jockey for the Large Maps framework (LaMa). It learns a path by saving image features and is able to follow the same path. It is based on algorithms provided by OpenCV (free ones).
